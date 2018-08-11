@@ -58,6 +58,14 @@ public class Author {
 		this.lastName = lastName;
 	}
 
+	public Set<Book> getBooks() {
+		return books;
+	}
+
+	public void setBooks(Set<Book> books) {
+		this.books = books;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
